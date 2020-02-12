@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url('../fonts/GlacialIndifference-Regular.woff') format('woff'),
+       url('../fonts/GlacialIndifference-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nick';
+  src: url('../fonts/Nickainley-Normal.woff') format('woff'),
+       url('../fonts/Nickainley-Normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GlacialIndifference-Bold';
+  src: url('../fonts/GlacialIndifference-Bold.woff') format('woff'),
+       url('../fonts/GlacialIndifference-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-color: #F7F6F4;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Header */
+
+.header {
+	font-family: 'GlacialIndifference-Regular', serif;
+	color: #393D50;
+	font-size: 24px;
+	padding-top: 30px;
+	margin-bottom: 55px;
+	position: relative;
+	z-index: 1;
+}
+
+.menu__item {
+	max-width: 80px;
+}
+
+.menu__item a {
+	color: #393D50;
+}
+
+.selected {
+	font-family: 'GlacialIndifference-Bold', serif;
+	font-size: 22px;
+}
+
+.menu__item a:hover {
+	border-bottom: 3px solid #393D50;;
+}
+
+.item-2 {
+	margin: 0 60px;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.logo_text {
+	font-family: 'Nick', serif;
+	font-size: 30px;
+}
+
+.i-phone {
+	margin-right: 20px;
+}
+
+/* Main */
+
+.main__title {
+	font-size: 72px;
+	line-height: 110%;
+	color: #393D50;
+	font-family: 'Nick', serif;
+	margin-bottom: 40px;
+}
+
+.main__description {
+	font-size: 18px;
+	line-height: 145%;
+	color: #393D50;
+	font-family: 'GlacialIndifference-Regular', serif;
+	margin-bottom: 20px;
+}
+
+.name {
+	font-size: 24px;
+	line-height: 145%;
+	color: #393D50;
+	font-family: 'GlacialIndifference-Bold', serif;
+	margin-bottom: 50px;
+}
+
+.main_btn {
+	font-family: 'GlacialIndifference-Bold', serif;
+	font-size: 30px;
+	line-height: 117%;
+	background-color: #F56457;
+	color: #F7F6F4;
+	transition: ease 0.5s;
+	border: 4px solid transparent;
+	width: 300px;
+	height: 95px;
+	max-width: 300px;
+}
+
+.main_btn:hover {
+	color: #F56457;
+	border: 4px solid #F56457;
+	background-color: #F7F6F4;
+	font-size: 24px;
+}
+
+/* Slider */
+
+.swiper-container {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.rose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
